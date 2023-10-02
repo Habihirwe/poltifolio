@@ -1,0 +1,45 @@
+#projects{
+    margin: 0 auto;
+    min-height:calc(100vh - 4rem) ;
+    width: 100vw;
+    max-width: 60em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+.Projectlist{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.projectDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+}
+.projectimages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+.projectimage{
+    object-fit: contain;
+    margin: 0.5rem;
+    width: 20rem;
+    transition: 1s;
+}
+/* .projectimage:hover{
+    transform: scale(1.3 );
+    z-index: 1;
+} */
+@media screen and(max-width:585px) {
+    .projectimage{
+     font-size: 50vw;
+    }
+     
+ }
