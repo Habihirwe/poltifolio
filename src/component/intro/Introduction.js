@@ -1,6 +1,6 @@
 import React from "react";
 import "./introduction.css";
-import bg from "../../assets/habihirweolivier.png";
+import bg from "../../assets/higanirosinior.png";
 import { Link } from "react-scroll";
 
 function Introduction() {

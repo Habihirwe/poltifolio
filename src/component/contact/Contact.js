@@ -32,7 +32,7 @@ function Contact() {
       <div id="contact">
         <h1 className="contactpagetitle">Contact me </h1>
         <span className="contactDesc">
-          please fill the form bello to discus any job opportinity
+          please fill the form bellow to discuss any job opportunity
         </span>
         <form action="contactform" ref={form} onSubmit={sendEmail}>
           <input

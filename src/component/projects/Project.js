@@ -5,7 +5,7 @@ import dp2 from "../../assets/dp 2.jpg";
 import dp3 from "../../assets/dp 3.jpg";
 import dp4 from "../../assets/dp 4.jpg";
 import dp5 from "../../assets/dp 5.jpg";
-import dp6 from "../../assets/dp 6.jpg";
+import dp7 from "../../assets/dp 7.jpg";
 
 function Project() {
   return (
@@ -18,7 +18,7 @@ function Project() {
         ICT chamber, collaborating with multidisciplinary teams to Build
         dashboards. I'd like to share some of these projects to showcase how my
         analytical abilities and problem-solving skills have contributed to
-        achieving tangible results."
+        achieving tangible results. these datas are from kaggle.
       </span>
       <div className="projectimages">
         <img src={dp1} alt="" className="projectimage" />
@@ -26,7 +26,7 @@ function Project() {
         <img src={dp3} alt="" className="projectimage" />
         <img src={dp4} alt="" className="projectimage" />
         <img src={dp5} alt="" className="projectimage" />
-        <img src={dp6} alt="" className="projectimage" />
+        <img src={dp7} alt="" className="projectimage" />
       </div>
     </section>
   );
