@@ -65,13 +65,13 @@ function Skills() {
         <div className="skillsection">
           <img src={py} alt="" className="skillImage" />
           <div className="skillBartext">
-            <h2>R studio</h2>
+            <h2>python</h2>
             <p>
-              I have expertise in using R for data analysis and statistical
-              modeling. My skills encompass data manipulation, visualization,
-              and advanced statistical techniques in R. I can leverage R to
-              derive valuable insights and build predictive models for complex
-              data-driven projects.
+              I have robust Python skills in data analysis, encompassing data
+              cleaning, manipulation, and statistical analysis. Proficient in
+              pandas, NumPy, matplotlib, and skilled in creating insightful
+              visualizations. Additionally, I'm adept at using machine learning
+              libraries like scikit-learn for predictive modeling.
             </p>
           </div>
         </div>

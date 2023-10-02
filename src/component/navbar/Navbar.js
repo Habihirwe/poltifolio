@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import menu from "../../assets/menu.png";
 
 function Navbar() {
-  const [showMenu, setShowMenu] = React.useState(true);
+  const [showMenu, setShowMenu] = React.useState(false);
   return (
     <nav className="navbar">
       <div>
@@ -21,7 +21,6 @@ function Navbar() {
           smooth={true}
           offset={-100}
           duration={500}
-          onClick={() => setShowMenu(!showMenu)}
           className="desktopMenuListItem"
         >
           Home
@@ -33,7 +32,6 @@ function Navbar() {
           smooth={true}
           offset={-100}
           duration={500}
-          onClick={() => setShowMenu(!showMenu)}
           className="desktopMenuListItem"
         >
           About
@@ -45,7 +43,6 @@ function Navbar() {
           smooth={true}
           offset={-50}
           duration={500}
-          onClick={() => setShowMenu(!showMenu)}
           className="desktopMenuListItem"
         >
           Project
@@ -57,7 +54,6 @@ function Navbar() {
           smooth={true}
           offset={-50}
           duration={500}
-          onClick={() => setShowMenu(!showMenu)}
           className="desktopMenuListItem"
         >
           Contact
