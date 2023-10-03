@@ -61,7 +61,7 @@ function Contact() {
             <a href="https://www.linkedin.com/feed/">
               <img src={Linkedin} alt="" className="link" />
             </a>
-            <a href="https://www.Gmail.com/higaniro">
+            <a href="https://www.Gmail.com">
               <img src={email} alt="" className="link" />
             </a>
             <a href="https://www.facebook.com">
