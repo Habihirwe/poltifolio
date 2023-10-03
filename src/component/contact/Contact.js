@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./contact.css";
-import Linkedin from "../../assets/linkedin.png";
-import twiter from "../../assets/twiter.png";
+import Linkedin from "../../assets/replace.png";
+import email from "../../assets/email.jpeg";
 import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagram.jpeg";
 import emailjs from "@emailjs/browser";
@@ -32,7 +32,7 @@ function Contact() {
       <div id="contact">
         <h1 className="contactpagetitle">Contact me </h1>
         <span className="contactDesc">
-          please fill the form bellow to discuss any job opportunity
+          Please fill the form bellow to discuss any job opportunity
         </span>
         <form action="contactform" ref={form} onSubmit={sendEmail}>
           <input
@@ -61,8 +61,8 @@ function Contact() {
             <a href="https://www.linkedin.com/feed/">
               <img src={Linkedin} alt="" className="link" />
             </a>
-            <a href="https://www.twiter.com">
-              <img src={twiter} alt="" className="link" />
+            <a href="https://www.Gmail.com/higaniro">
+              <img src={email} alt="" className="link" />
             </a>
             <a href="https://www.facebook.com">
               <img src={facebook} alt="" className="link" />

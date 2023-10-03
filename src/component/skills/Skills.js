@@ -70,8 +70,7 @@ function Skills() {
               I have robust Python skills in data analysis, encompassing data
               cleaning, manipulation, and statistical analysis. Proficient in
               pandas, NumPy, matplotlib, and skilled in creating insightful
-              visualizations. Additionally, I'm adept at using machine learning
-              libraries like scikit-learn for predictive modeling.
+              visualizations.
             </p>
           </div>
         </div>

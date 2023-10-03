@@ -18,7 +18,7 @@ function Project() {
         ICT chamber, collaborating with multidisciplinary teams to Build
         dashboards. I'd like to share some of these projects to showcase how my
         analytical abilities and problem-solving skills have contributed to
-        achieving tangible results. these datas are from kaggle.
+        achieving tangible results. these datasets are from kaggle.
       </span>
       <div className="projectimages">
         <img src={dp1} alt="" className="projectimage" />
